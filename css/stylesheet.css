@@ -46,57 +46,6 @@ body::-webkit-scrollbar-thumb {
   flex-wrap: wrap;
 }
 
-header {
-  width: 100vw;
-  height: 10vh;
-  background-color: white;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  border-bottom: 1px solid #000;
-  position: fixed;
-}
-.logo {
-  font-family: "MuliBold";
-  letter-spacing: 6px;
-  color: #000;
-}
-/* .logo-dark {
-  background-color: black;
-  color: #fff;
-} */
-
-nav ul li {
-  display: inline;
-  font-size: 0.9rem;
-  margin-right: 15px;
-  font-family: "Raleway-Thin", sans-serif;
-  list-style: none;
-  color: #000;
-}
-button {
-  background-color: transparent;
-
-  border: 0;
-  font-family: "MuliBold";
-  letter-spacing: 6px;
-}
-/* ------ */
-button:focus {
-  outline: none;
-}
-/* ------ */
-
-.icon {
-  background-color: white;
-  width: 20px;
-  border-radius: 100%;
-}
-
-.icon img {
-  background-color: white;
-}
-
 /* ---------------------------- 
 */
 
@@ -227,4 +176,20 @@ button:focus {
 .form-container button:hover {
   background-color: goldenrod;
   color: #eee;
+}
+/* -------------------- */
+/* ------------------------- */
+/* ---------footer----------- */
+footer {
+  width: 100vw;
+  height: 7vh;
+  font-size: 0.7rem;
+  word-spacing: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Fjord One", serif;
+  background-color: #fff;
+  color: #111111;
+  border-top: 1px solid #000;
 }

@@ -1,0 +1,82 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+:root {
+  font-size: 16px;
+}
+
+header {
+  width: 100vw;
+  height: 10vh;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid #000;
+  position: fixed;
+}
+.logo {
+  font-family: "MuliBold";
+  letter-spacing: 6px;
+  color: #000;
+  font-style: italic;
+}
+.logo a {
+  text-decoration: none;
+  color: #000;
+  font-family: "MuliBold";
+  font-style: italic;
+  letter-spacing: 6px;
+  transition: 0.5s ease;
+}
+
+nav ul li {
+  display: inline;
+  font-size: 0.9rem;
+  margin-right: 15px;
+  font-family: "Raleway-Thin", sans-serif;
+  list-style: none;
+  color: #000;
+}
+nav a {
+  text-decoration: none;
+  color: #000;
+  transition: 0.5s ease;
+}
+nav a:hover {
+  text-decoration: none;
+  color: #666666;
+  cursor: pointer;
+}
+
+/* ------- */
+button {
+  background-color: transparent;
+
+  border: 0;
+  font-family: "MuliBold";
+  letter-spacing: 6px;
+}
+/* ------ */
+button:focus {
+  outline: none;
+}
+/* ------ */
+
+.icon {
+  background-color: white;
+  width: 20px;
+  border-radius: 100%;
+}
+
+.icon img {
+  background-color: white;
+}

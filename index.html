@@ -5,12 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="./css/stylesheet.css" />
     <link rel="stylesheet" type="text/css" href="./css/styles-fonts.css" />
+    <link rel="stylesheet" type="text/css" href="./css/styles-navigation-bar.css">
     <title>Dark Mode CSS | JS</title>
-    <script
-    src="https://use.fontawesome.com/releases/v5.13.0/js/all.js"
-    data-auto-a11y="true"
-  ></script>
-    <script src="./js/index.js"></script>
+
   </head>
 
   <body>
@@ -21,10 +18,11 @@
         <div class="logo">VOID</div>
         <nav>
           <ul>
+           
             <li>ABOUT</li>
             <li>NEWS</li>
             <li>SHOP</li>
-            <li>CONTACT</li>
+            <li><a href="./html/contact.html" target="_self">CONTACT</a></li>
           </ul>
         </nav>
         <button onclick="randomFunction()"><img class="icon" src="./img/icon.png" width="40px" alt="icon">
@@ -39,45 +37,40 @@
       <!-- ------------------------------ -->
    <div id="top">
      <div class="top-one">
-       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error mollitia molestias, tenetur commodi ipsam cumque possimus porro .</p>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error mollitia molestias, tenetur commodi ipsam
+         cumque possimus porro .</p>
      </div>
      <!-- ------------ -->
      <div class="top-two">
-<div class="info">
-<p>Subscribe to<span>VOID</span>Newsletter</p>
-</div>
-
-<div class="form-container">
-
-<form>
-<input type="email" placeholder="Email Address" required><button>SIGN UP</button></br>
-
-
-
-
-</form>
-
-
-
-
-
-
-
-</form>
-
-
-
-</div>
+       <div class="info">
+         <p>Subscribe to<span>VOID</span>Newsletter</p>
+       </div>
+    <!-- ------------- -->
+       <div class="form-container">
+          <form>
+           <input type="email" placeholder="Email Address" required><button>SIGN UP</button></br> 
+       </div>
      </div>
    </div>
-    <!-- ------------------------------ -->
+   <!-- ------------------------------ -->
   </div>
+    <!-- ------------------------------ -->
+<footer>
+  <p>&#x000A9 2010 - 2020 VOID all rights reserved</p>
+</footer>
+
+
+
+
+    <!-- ------------------------------ -->
+    <!-- ------------------------------ -->
+      <!-- ------------------------------ -->
+    <!-- ------------------------------ -->
     <script>
       function randomFunction() {
          var element = document.body;
          element.classList.toggle("dark-side");
-    
-      }
-      </script>
+  }
+  </script>
   </body>
 </html>

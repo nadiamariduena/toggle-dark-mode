@@ -1,0 +1,107 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+:root {
+  font-size: 16px;
+}
+
+body {
+  background-color: white;
+  color: black;
+  font-size: 1rem;
+  height: 100%;
+  overflow-x: hidden;
+}
+.dark-side {
+  background-color: black;
+  color: white;
+  /* -------- */
+  filter: invert(1);
+  /* -------- */
+}
+/* ---------------- */
+body::-webkit-scrollbar {
+  width: 1em;
+}
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgb(167, 167, 167);
+}
+body::-webkit-scrollbar-thumb {
+  background-color: black;
+  outline: none;
+}
+
+/* ---------------- */
+header {
+  /* position: initial !important; */
+  /* margin: 0 0 150px 0 !important; */
+}
+/* ---------------- */
+
+#page {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* ---------------- */
+#top {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 80px 0 0 0;
+}
+
+.row1 {
+  width: 100%;
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.row1 h1 {
+  padding: 10vh 0 5vh 0;
+  font-family: "Lato";
+  font-size: 2rem;
+}
+
+.img-row1 {
+  width: 30%;
+  padding: 35vh 0;
+  background-color: goldenrod;
+
+  background-image: url(../img/brown3-768x960.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 2px solid #000;
+}
+/* --------------------- */
+/* SECTION FORM FOR MARCH 26 */
+/* ------------------------- */
+/* ---------footer----------- */
+footer {
+  width: 100vw;
+  height: 10vh;
+  font-size: 0.8rem;
+  word-spacing: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Fjord One", serif;
+  background-color: #fff;
+  color: #111111;
+  border-top: 1px solid #000;
+}
