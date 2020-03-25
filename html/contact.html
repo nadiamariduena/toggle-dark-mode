@@ -26,7 +26,7 @@
                     <li><a href="../index.html" target="_self">CONTACT</a></li>
                 </ul>
             </nav>
-            <button onclick="randomFunction()"><img class="icon" src="../img/icon.png" width="40px" alt="icon">
+            <button onclick="contactFunction()"><img class="icon" src="../img/icon.png" width="40px" alt="icon">
         </header>
 
         <!-- ------------------------------ -->
@@ -48,7 +48,14 @@
         <p>&#x000A9 2010 - 2020 VOID all rights reserved</p>
       </footer>
     <!-- ------------script------------------ -->
+<script>
 
+function contactFunction() {
+    var element = document.body;
+    element.classList.toggle("dark-side-contact");
+}
+
+</script>
     <!-- ------------script------------------ -->
   </body>
 </html>
