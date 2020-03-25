@@ -117,9 +117,9 @@ button:focus {
 }
 
 #banner:hover {
-  background-image: url(../img/oil.jpg);
+  background-image: url(../img/SentaSimond2.jpeg);
   background-repeat: no-repeat;
-  background-position: right top;
+  background-position: bottom left;
   background-size: 120%;
 }
 
