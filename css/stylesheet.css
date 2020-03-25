@@ -1,0 +1,164 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+:root {
+  font-size: 16px;
+}
+
+body {
+  background-color: white;
+  color: black;
+  font-size: 1rem;
+  height: 100%;
+  overflow-x: hidden;
+}
+.dark-side {
+  background-color: black;
+  color: white;
+  /* -------- */
+  filter: invert(1);
+  /* -------- */
+}
+
+/* ---------------- */
+
+#page {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header {
+  width: 100vw;
+  height: 10vh;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid #000;
+  position: fixed;
+}
+.logo {
+  font-family: "MuliBold";
+  letter-spacing: 6px;
+  color: #000;
+}
+/* .logo-dark {
+  background-color: black;
+  color: #fff;
+} */
+
+nav ul li {
+  display: inline;
+  font-size: 0.9rem;
+  margin-right: 15px;
+  font-family: "Raleway-Thin", sans-serif;
+  list-style: none;
+  color: #000;
+}
+button {
+  background-color: transparent;
+
+  border: 0;
+  font-family: "MuliBold";
+  letter-spacing: 6px;
+}
+/* ------ */
+button:focus {
+  outline: none;
+}
+/* ------ */
+
+.icon {
+  background-color: white;
+  width: 20px;
+  border-radius: 100%;
+}
+
+.icon img {
+  background-color: white;
+}
+
+/* ---------------------------- 
+*/
+
+#banner {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+
+  background-image: url(../img/girl-anothermag.jpg);
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 110%;
+  transition: 6s ease;
+}
+
+#banner:hover {
+  background-image: url(../img/girl-anothermag.jpg);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 120%;
+}
+
+#banner h1 {
+  font-family: "Muli-SemiBoldItalic";
+  color: #000;
+}
+/* --------------------- */
+
+#top {
+  width: 100vw;
+  height: 30vh;
+  background-color: transparent;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #000;
+}
+
+.top-one {
+  width: 45%;
+  height: 80%;
+  background-color: #fff;
+  border-right: 1px solid #000;
+
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+.top-one p {
+  padding: 40px;
+  font-family: "Rajdhani-Light";
+  text-align: left;
+  letter-spacing: 5px;
+  color: #000;
+}
+/* ------------- */
+.top-two {
+  width: 45%;
+  height: 80%;
+  margin-left: 10px;
+
+  background-color: #fff;
+  border-left: 1px solid #000;
+
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./css/stylesheet.css" />
+    <link rel="stylesheet" type="text/css" href="./css/styles-fonts.css" />
+    <title>Dark Mode CSS | JS</title>
+    <script
+    src="https://use.fontawesome.com/releases/v5.13.0/js/all.js"
+    data-auto-a11y="true"
+  ></script>
+    <script src="./js/index.js"></script>
+  </head>
+
+  <body>
+    <!-- --------------------------- -->
+    <!-- ------------------------------ -->
+    <div id="page">
+      <header>
+        <div class="logo">VOID</div>
+        <nav>
+          <ul>
+            <li>ABOUT</li>
+            <li>NEWS</li>
+            <li>SHOP</li>
+            <li>CONTACT</li>
+          </ul>
+        </nav>
+        <button onclick="randomFunction()"><img class="icon" src="./img/icon.png" width="40px" alt="icon">
+      </header>
+
+      <!-- ------------------------------ -->
+
+      <div id="banner">
+        <h1>Dark and Light Mode </h1>
+
+      </div>
+      <!-- ------------------------------ -->
+   <div id="top">
+     <div class="top-one">
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error mollitia molestias, tenetur commodi ipsam cumque possimus porro .</p>
+     </div>
+     <div class="top-two"></div>
+   </div>
+    <!-- ------------------------------ -->
+  </div>
+    <script>
+      function randomFunction() {
+         var element = document.body;
+         element.classList.toggle("dark-side");
+    
+      }
+      </script>
+  </body>
+</html>
